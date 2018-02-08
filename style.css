@@ -87,7 +87,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.5em;
 }
 
 li a:hover {
@@ -111,10 +111,15 @@ li a:hover {
 #logo {
   display: block;
   position: absolute;
+  width: 50%
   margin: 0;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#logo {
+  width: 50%;
 }
 
 .about {
@@ -140,10 +145,10 @@ li a:hover {
 
 .social {
   background-color: f68948;
-  height: 200px;
 }
 
 .social-icon {
-  width: 4em;
+  width: 7em;
+  height: 7em;
   margin-top: 20px;
 }
