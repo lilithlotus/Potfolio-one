@@ -60,6 +60,7 @@ html {
 
 body {
   font-family: 'Lato', sans-serif;
+  color: #4c5260;
 }
 
 ul {
@@ -91,7 +92,7 @@ li a {
 
 li a:hover {
   background-color: #dad0ce;
-  color: #419a9e;
+  color: #f68948;
 }
 
 .section_heading {
@@ -119,6 +120,7 @@ li a:hover {
 .about {
   height: 800px;
   padding-top: 55px;
+  position: relative;
 }
 
 .portfolio {
@@ -130,4 +132,18 @@ li a:hover {
 .connect {
   height: 800px;
   padding-top: 55px;
+}
+
+.sub-header {
+  text-align: center;
+}
+
+.social {
+  background-color: f68948;
+  height: 200px;
+}
+
+.social-icon {
+  width: 4em;
+  margin-top: 20px;
 }
